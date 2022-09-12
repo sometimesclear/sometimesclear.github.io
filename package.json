@@ -31,7 +31,7 @@
     "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/sometimesclear.github.io/dhdh.github.io",
   "keywords": [
     "gatsby"
   ],
@@ -42,7 +42,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
