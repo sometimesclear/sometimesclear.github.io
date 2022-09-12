@@ -3,7 +3,7 @@ module.exports = {
     title: `Sometimes Clear`,
     author: {
       name: `Lee Dahye`,
-      summary: `서울에 살고 프론트엔드 개발자로 일합니다.`,
+      summary: `서울에 살고 프론트엔드 개발자로 일합니다!`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
