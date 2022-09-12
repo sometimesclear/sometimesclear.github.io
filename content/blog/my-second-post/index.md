@@ -29,11 +29,11 @@ git push -u origin master
 
 ```
 
-4. github에 저장소를 만든다. 추후 배포를 위해 원하는이름.github.io 로 생성한다.
+4. github에 저장소를 만든다. 추후 배포를 위해 **원하는이름.github.io** 로 생성한다. 주소가 되는 부분이니 신중하게 정하자.
 
 ### 에러 상황
 
-1. git push가 안됨. `error: src refoes not match` 라고 한다.
+1. git push가 안됨. **error: src refoes not match** 라고 한다.
 
    - 검색해보니 원격 저장소에서 pull 을 받지 않고 로컬 저장소에서 push를 했을 때 생기는 에러라고 한다. 아래와 같이 초기화하여 다시 진행.
 
@@ -46,4 +46,7 @@ git push -u origin master
 
    ```
 
-   그래도 안되어서 확인해보니 내 로컬 브랜치 이름이 main 이 아닌 master였는데 내가 계속 main으로 푸시를 해서 그런 것 같다.
+   그래도 안되어서 확인해보니 원격 브랜치에도 README 파일이 있고 로컬에도 README 파일이 있어 두 변경사항이 모두 반영이 안되어서 그런 것 같다. 아래 명령어로 두 저장소의 변경사항을 병합했다.
+   `git pull origin 브랜치명 --allow-unrelated-histories`
+
+   그리고.. 브랜치명을 잘 확인하자. 로컬 브랜치가 main인 줄 알았는데 master로 되어있어서 안되었다.
