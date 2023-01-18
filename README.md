@@ -1,5 +1,5 @@
 <h1 align="center">
-  Zoomkoding Gatsby Blog
+  때때로 맑음
 </h1>
 
 <p align="center">
