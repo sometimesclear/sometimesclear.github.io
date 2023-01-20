@@ -88,6 +88,9 @@ $ yarn start
 
 <br/>
 여기까지는 되었고 내일부터 본격적으로 블로그를 다듬어봐야겠습니다.
+<br/>
+아래와 같은 에러가 발생하였습니다. 윈도우 poweshell에서 yarn run deploy 명령어를 사용했을 때 나타났고 node에서 yarn run deploy 명령어를 사용했을 때는 정상적으로 배포가 진행됩니다.
+[Error: EBUSY: resource busy or locked](https://stackoverflow.com/questions/55212864/error-ebusy-resource-busy-or-locked-rmdir)
 
 ```toc
 
